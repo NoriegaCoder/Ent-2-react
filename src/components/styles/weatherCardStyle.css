@@ -1,0 +1,72 @@
+
+
+.wrapper {
+    background-color: rgba(255, 255, 255, 0.447);
+    color: #000000;
+    text-align: center;
+    max-width: 100%;
+    width: 450px;
+    height: 450px;
+    border-radius: 15px;
+    padding: 3rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper h1{
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.temperatura{
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.wrapper h2{
+    font-size: large;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content img{ 
+    width: 170px;
+}
+
+.list {
+    display: grid;
+      grid-template-rows: auto auto;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    margin-right: 2rem;
+    line-height: 2;
+}
+
+.merged-cells {
+    grid-area: 1 / 1 / 2 / 3; 
+    
+}
+
+.cell {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+  }
+
+.padrig {
+    font-weight: 700;
+}
+
+.btnTemp {
+    width: 10rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.781);
+}
